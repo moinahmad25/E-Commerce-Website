@@ -1,0 +1,82 @@
+.shop_category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    /* min-height: 400vh; */
+}
+.banner{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -0.5rem 0.2rem 1rem rgba(233, 233, 233, 0.856);
+}
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
+.info{
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.info p{
+    font-size: 1rem;
+    color: rgb(116, 116, 116);
+}
+.info p span{
+    font-weight: 600;
+    color: black;
+}
+.info .sort{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    border: 1px solid rgb(215, 215, 215);
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    /* padding: 0.5rem; */
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.sort img{
+    width: 0.6rem;
+}
+.shop_item{
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.load_more{
+    margin-top: 2rem;
+    width: 80%;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.load_more button{
+    width: 9rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: 1px solid rgb(213, 213, 213);
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: .2s all;
+}
+.load_more button:hover{
+    background: #e5e5e5;
+}
+

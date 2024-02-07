@@ -1,0 +1,127 @@
+button, .p_img{
+    cursor: pointer;
+}
+.p_body{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.product_display{
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+}
+.p_1{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 72vh;
+    gap: 0.7rem;
+}
+.p_img{
+    height: 7.2rem;
+    object-fit: cover;
+    object-position: top;
+    transition: transform .3s ease-out;
+}
+.p_img:hover{
+    border: 2px solid rgb(77, 77, 77);
+    padding: 0.1rem;
+    transform: scale(1.03) rotate(-1deg);
+    border-radius: 0.5rem;  
+}
+.p_2{
+    width: 40%;
+    height: 72vh;
+}
+.p_2 .d_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top
+}
+.p_3{
+    width: 50%;
+    height: 72vh;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.p_3 h1{
+    font-size: 2rem;
+    font-weight: 550;
+    line-height: 2.5rem;
+}
+.star{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    /* margin-top: -0.8rem; */
+    /* background: #000; */
+    /* height: 2rem; */
+    
+}
+.star p{
+    font-size: 0.7rem;
+}
+.price{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.old_price{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.new_price{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(255, 106, 0);
+}
+.desc{
+    font-size: 0.9rem;
+}
+.s_heading{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(81, 81, 81);
+    margin-bottom: 1rem;
+}
+.size_btn{
+    width: 2.8rem;
+    height: 2.8rem;
+    font-weight: 500;
+    border: 1px solid rgb(212, 212, 212);
+    background: rgb(246, 246, 246);
+    margin-right: 1rem;
+    transition: all .2s;
+}
+.size_btn:hover{
+    background: #000;
+    color: white;
+}
+.cart_btn{
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    background: rgb(249, 83, 12);
+    color: rgb(255, 255, 255);
+    transition: all .2s;
+}
+.cart_btn:hover{
+    background: orangered;
+    color: white;
+}
+.category p{
+    font-size: 0.8rem;
+    color: rgb(104, 104, 104);
+}
+.category p span{
+    font-weight: 500;
+    color: black;
+}

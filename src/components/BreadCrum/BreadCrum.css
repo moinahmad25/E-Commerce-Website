@@ -1,0 +1,28 @@
+.bread{
+    width: 100%;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.bread_crum{
+    width: 80%;
+    padding: 0 1rem;
+    /* padding: 3rem; */
+}
+.bread_crum p{
+    color: rgb(80, 80, 80);
+    display: flex;
+    /* justify-content: center; */
+    height: inherit;
+    align-items: center;
+    gap: 0.3rem;
+    text-transform: capitalize;
+}
+.bread_crum p img{
+    height: 0.8rem;
+}
+.bread_crum p span{
+    color: rgb(13, 13, 13);
+    font-weight: 500;
+}

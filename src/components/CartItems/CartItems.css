@@ -1,0 +1,139 @@
+.cartitem_body{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.cover{
+    width: 80%;
+    padding: 3rem 0;
+}
+.item_heading{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    /* justify-content: center; */
+    gap: 3rem;
+    /* padding: 1rem 0; */
+    color: rgb(30, 30, 30);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.parent{
+    min-height: 40vh;
+}
+.product{
+    padding-bottom: 1rem;
+    color: gray;
+    font-weight: 400;
+    font-size: 0.9rem;
+    border-bottom: 1px solid lightgray;
+}
+.product:last-child{
+    border-bottom: none;
+}
+.pro_img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    object-position: top;
+}
+.add_remove{
+    display: flex;
+    margin-left: -0.5rem;
+}
+.add, .remove, .pro_quantity{
+    width: 2rem;
+    height: 2rem;
+    background: rgb(225, 225, 225);
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: .2s ease-in-out;
+}
+.add:hover, .remove:hover{
+    background: #000;
+    color: white;
+}
+.pro_quantity{
+    /* margin: 0 1rem; */
+    background: white;
+    border: 1px solid lightgray;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    border-left: none;
+    border-right: none;
+}
+.pro_price{
+    margin-left: 0.5rem;
+}
+.total_price{
+    margin-left: 0.5rem;
+}
+.remove_icon{
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+.total_price_part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+.cart_total_left, .cart_total_right{
+    flex: 1;
+}
+.total{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.cart_total_right{
+    margin-left: 2rem;
+}
+.subtotal, .final{
+    display: flex;
+    width: 24rem;
+    justify-content: space-between;
+    border-bottom: 1.2px solid rgb(230, 230, 230);
+    padding: 0.6rem 0;
+    color: rgb(107, 107, 107);
+    font-size: 0.9rem;
+}
+.cal{
+    margin-top: 1.5rem;
+}
+.final{
+    border-bottom: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+.cart_total_right p{
+    color: gray;
+    font-size: 0.9rem;
+}
+.inputs{
+    display: flex;
+    margin-top: 1rem;
+}
+.inputs input{
+    width: 16rem;
+    height: 2.5rem;
+    padding-left: 0.6rem;
+    border-radius: none;
+    border: 1px solid lightgray;
+    outline: none;
+    background: rgb(243, 243, 243);
+    border-right: none;
+}
+.inputs button{
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    background: #000;
+    color: white;
+}

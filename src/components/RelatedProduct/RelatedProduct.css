@@ -1,0 +1,21 @@
+.related_body{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.related_product{
+    width: 80%;
+}
+.line{
+    margin-top: 0.4rem;
+}
+.product{
+    /* height: 30vh; */
+    margin-top: 2.5rem;
+    display: flex;
+    /* gap: 0.8rem; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

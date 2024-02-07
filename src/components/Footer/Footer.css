@@ -1,0 +1,65 @@
+.footer{
+    width: 100%;
+    min-height: 40vh;
+    /* background: linear-gradient(180deg, rgb(255, 255, 254), rgb(255, 234, 196) 60%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.list1{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: rgb(84, 84, 84);
+}
+.list1 li{
+    cursor: pointer;
+}
+.shop_name{
+    display: flex;
+    align-items: center;
+    min-height: 5rem;
+    gap: 1rem;
+}
+.shop_name img{
+    height: 2.5rem;
+}
+.shop_name h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.social_handles{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.social_handles button{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(231, 231, 231);
+    background: rgb(246, 246, 246);
+    cursor: pointer;
+}
+.social_handles img{
+    pointer-events: none;
+    height: 1.5rem;
+}
+.line1{
+    height: 2px;
+    width: 90%;
+    background: rgb(206, 206, 206);
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+.copyright{
+    font-size: 0.8rem;
+    color: gray;
+    margin-top: 1rem;
+}

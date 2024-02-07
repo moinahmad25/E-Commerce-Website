@@ -1,0 +1,36 @@
+.description_body{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.d_box{
+    width: 80%;
+}
+.btns{
+    display: flex;
+}
+.btns button{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid rgb(222, 222, 222);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.description{
+    background: white;
+    /* border-bottom: 2px solid white; */
+}
+.review{
+    background: rgb(242, 242, 242);
+    color: rgb(74, 74, 74);
+}
+.desc_box{
+    width: 100%;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid rgb(222, 222, 222);
+    font-size: 0.8rem;
+}

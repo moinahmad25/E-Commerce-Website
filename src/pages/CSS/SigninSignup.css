@@ -1,0 +1,69 @@
+.sign_up{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 248, 234);
+}
+.box{
+    width: 30rem;
+    /* height: 30rem; */
+    background: #ffffff;
+    border-radius: 0.7rem;
+    box-shadow: -0.5rem 0.3rem 1rem rgba(224, 205, 170, 0.701);
+    padding: 2.5rem;
+}
+.box h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.field{
+    width: 100%;
+}
+.field input{
+    width: 100%;
+    height: 3rem;
+    margin: 0.5rem 0;
+    padding: 0 1rem;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+}
+.field button{
+    width: 100%;
+    background: rgb(255, 152, 34);
+    height: 3rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: rgb(44, 27, 7);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+.exist{
+    width: 100%;
+    display: flex;
+}
+.exist p{
+    color: rgb(143, 143, 143);
+    font-size: 0.8rem;
+}
+.exist p a{
+    color: rgb(224, 125, 11);
+    cursor: pointer;
+    font-weight: 500;
+}
+.terms{
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+.terms .checkbox{
+    cursor: pointer;
+}
+.terms p{
+    font-size: 0.8rem;
+    color: rgb(143, 143, 143);
+}

@@ -1,0 +1,38 @@
+.propular_product{
+    width: 100%;
+    min-height: 70vh;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading h1{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    /* margin-bottom: 1rem; */
+}
+.heading .line{
+    height: 5px;
+    width: 4rem;
+    background: #000;
+    border-radius: 10rem;
+}
+.card{
+    width: 80%;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
